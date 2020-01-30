@@ -1,0 +1,166 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+ion-footer{
+  .bike-list-container{
+    overflow-y: auto;
+    max-height: 246px;
+  }
+  
+  .nearby-bikes{
+    padding: 8px;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+    background-color: #34a080;
+    text-align: center;
+    color: #fff;
+  }
+
+  .bike-list-container{
+    padding: 8px;
+
+    .bike-container{
+      margin-bottom: 10px;
+      box-shadow: 0px 0px 3px 0px rgba(15, 22, 33, 0.3);
+      background-color: #f5f5f5;
+
+      .inner {
+        width: inherit;
+        position: relative;
+
+        .distance-data{
+          padding-right: 80px;
+          padding-left: 60px;
+          font-size: 14px;
+
+          ion-icon{
+            font-size: 18px;
+          }
+        }
+
+        .bike-icon{
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          width: 60px;
+          line-height: 78px;
+          font-size: 48px;
+          text-align: center;
+        }
+
+        .battery-info1{
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          line-height: 70px;
+          text-align: center;
+          width: 80px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.bike-list-container{
+  position: relative;
+
+  .bike-list-expander{
+    position: absolute;
+    font-size: 32px;
+    color: gray;
+    z-index: 200;
+    left: 46%;
+    top: -32px;
+  }
+}
+
+.bike-container{
+  height: 70px;
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+    width: 100%;
+    clear: both;
+
+  div {
+    height: inherit;
+    float: left;
+  }
+}
+
+.bike-name, .battery-info{
+  height: inherit;
+  line-height: 45px;
+}
+
+.battery-info{
+  width: 20%;
+}
+
+.bike-name{
+  width: 30%!important;
+  line-height: 60px;
+  padding-left: 10px;
+}
+
+.battery-info{
+  line-height: 60px;
+
+  div{
+    float: left;
+  }
+}
+.battery-icon{
+  font-size: 20px;
+}
+
+.address-info{
+  float: right!important;
+  width: 50%!important;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 10px;
+
+  div{
+    width: 100%;
+  }
+
+  .disance{
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .address{
+    height: 40px;
+    padding-top: 10px;
+  }
+}
+
+.checkbox-wrapper{
+  text-align: right;
+  float: right;
+  ion-label{
+    margin-left: 5px;
+  }
+}
+
+.mapContainer{
+  background-color: white;
+}
+.get-position{
+  margin-bottom:10px;
+  
+}
+
+.button-container{
+  clear: both;
+}
+.close-circle-cancel{
+  margin-left: 93%;
+}
